@@ -1,0 +1,28 @@
+*{
+	   font-size: 100%;
+	   font-family: cursive;
+} 
+
+.contenedor{
+	justify-content: center;
+	align-items: center;
+	   background-color: tomato;
+	   width: 90%;
+	   height: 1000px;
+}
+.button{
+
+	transition: 0.9s;
+	margin: 30px;
+	 justify-content: center;
+	 align-items: center;
+	 height: 70px;
+	 width: 50%;
+	 color: black;
+	 background-color: white;
+}
+.button:hover{
+	 background-color: white;
+	 width: 70%;
+	 margin: 50px;
+}
