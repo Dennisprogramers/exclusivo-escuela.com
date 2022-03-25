@@ -1,0 +1,110 @@
+@charset "utf-8";
+
+/*
+
+    Familias y sexualidades: Prevención del embarazo en adolescentes
+    INSTITUTO NACIONAL DE LAS MUJERES, INMUJERES.
+	www.inmujeres.gob.mx
+
+    
+    Copyright © 2016 INMUJERES. All rights reserved.
+
+*/
+
+#page {
+	background-image:none; /* NO BRICKS ON PAGE BACKGROUND */
+}
+
+#intro {
+	background-color:whit;
+}
+
+#poster {
+	padding-bottom: 45%;
+}
+
+#floor {
+	background: url(../img/floor_plant_02.svg) no-repeat 4% bottom, url(../img/floor_wall.svg) repeat-x center bottom;
+	background-color:white;
+}
+
+hr {
+	border-top-color: #f498a1;
+}
+
+.accordion {
+	background-color:white; 
+}
+
+.accordion_item {
+	background:grey url(../img/cap_07_accordion_bullet.svg) no-repeat;
+}
+
+.accordion_item_content {
+	border-top-color: white;
+}
+
+#conclusion {
+	align-items:center;
+}
+
+#conclusion > .speech_bubble_right:before {
+	top: 20%;
+}
+
+/*******************/
+/*** MEDIA QUERY ***/
+/*******************/
+
+@media only screen and (max-width: 768px) {
+	
+	.accordion_item {
+		background-image: none;
+		padding: 20px 60px 20px 20px;
+	}
+	
+	#conclusion {
+		padding: 40px 0 20px 0;
+		justify-content:center;
+	}
+	
+	#conclusion > .speech_bubble {
+		width: 100%;
+	}
+	
+	#conclusion > .speech_bubble_right:before {
+		top:auto;
+		bottom: -15px;
+		right: 20%;
+		box-shadow:	5px 5px 0 rgba(0,0,0, 0.1);
+		transform:rotate(45deg) skew(15deg, 15deg);
+		z-index:auto;
+	}
+	
+	#conclusion > img {
+		width: 50%;
+	}
+	
+	#floor {
+		background: url(../img/floor_plant_02.svg) no-repeat center bottom, url(../img/floor_wall.svg) repeat-x center bottom;
+		background-color:white;
+	}
+}
+
+/* INTERACTIVE MECHANICS STYLES */
+
+/* CUSTOM CLASSES USED WITH TOGGLE ON CLICK (toc.js) */
+
+/* CAP 07 TEM 01 ACT 01 (a) */
+
+.cap_07_tem_01a_text_b {
+	width: 70%;
+	left:15%;
+	top: 45%;
+	font-size: 21px;
+	font-weight:bold;
+	text-align: center;
+	color:#434a54;
+	margin:0;
+	transform: translateY(-50%);	
+}
