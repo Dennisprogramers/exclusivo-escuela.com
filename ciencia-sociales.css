@@ -1,0 +1,120 @@
+*{
+	 font-family: cursive;
+	 font-size: 100%;
+}
+.contenedor{
+	  background-color: grey;
+	  width: 80%;
+	  height: 1000px;
+}
+.li-1{
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	 background-color: white;
+	 width: 50%;
+	 border-radius: 20%;
+	 transition: 0.9s;
+	 height: 40px;
+}
+.li-2{
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	 background-color: white;
+	 width: 50%;
+	 border-radius: 20%;
+	 transition: 1s;
+	  height: 40px;
+}
+.li-3{
+	 height: 40px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	 background-color: white;
+	 width: 50%;
+	 border-radius: 20%;
+	 transition: 1s;
+}
+.li-4{
+	 height: 40px;
+
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	 width: 50%;
+	 border-radius: 20%;
+	 transition: 1s;
+
+}
+.li-5{
+	 height: 40px;
+
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	 width: 50%;
+	 border-radius: 20%;
+	 transition: 1s;
+	}
+.li-6{
+	 height: 40px;
+
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	 width: 50%;
+	 border-radius: 20%;
+	 transition: 1s;
+}	
+.li-7{
+	transition: 1s;
+	 height: 40px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	 width: 50%;
+	 border-radius: 20%;
+}
+.li-1:hover{
+	 background-color: #4169E1;
+	 width: 70%;
+	 height: 50px;
+	 transition: 0.9s;
+}
+.li-2:hover{
+	 background-color: #4169E1;
+	 width: 70%;
+	 height: 50px;
+}
+.li-3:hover{
+	 background-color: #4169E1;
+	 width: 70%;
+	 height: 50px;
+}
+.li-4:hover{
+	 background-color: #4169E1;
+	 width: 70%;
+	 height: 50px;
+}
+.li-5:hover{
+	 background-color: #4169E1;
+	 width: 70%;
+	 height: 50px;
+}
+.li-6:hover{
+	 background-color: #4169E1;
+	 width: 70%;
+	 height: 50px;
+}
+.li-7:hover{
+	 background-color: #4169E1;
+	 width: 70%;
+	 height: 50px;
+}
+
